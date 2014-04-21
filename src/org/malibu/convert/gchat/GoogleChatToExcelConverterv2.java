@@ -25,7 +25,7 @@ public class GoogleChatToExcelConverterv2 {
 	private static final int TEXT_COLUMN_INDEX = 2;
 	
 	private static final String JOIN_CONVERSATION_REGEX = "^[^\\s]+ joined the conversation - [\\d]{1,2}:[\\d]{2} [AP]M$";
-	private static final String NEW_SPEAKER_REGEX = "^[^\\s]+ - [\\d]{1,2}:[\\d]{2} [AP]M$";
+	private static final String NEW_SPEAKER_REGEX = "^[^\\-]+- [\\d]{1,2}:[\\d]{2} [AP]M$";
 	
 	private static CellStyle MINUTES_DIVIDER_CELL_STYLE = null;
 	private static CellStyle TIME_CELL_STYLE = null;
